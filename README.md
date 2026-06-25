@@ -6,4 +6,11 @@ user      = "JJMCGUIGAN" # e.g. Authentication variable
 password  = "Quaker999999999"
 role      = "ACCOUNTADMIN"     # e.g. Need a role for connection
 
-
+[connections.my_example_connection]
+account = "FYNDMSA-BF83912"
+user = "JJMCGUIGAN"
+authenticator = "externalbrowser"
+role = "ACCOUNTADMIN"
+warehouse = "<none selected>"
+database = "<none selected>"
+schema = "<none selected>"
